@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Header files, configuration settings, Curie BSP-specific functions, and setup instructions for JerryScript.
+Headers, app config, and BSP source for JerryScript on Curie and Quark.
 
 ## Folders
 - **[include](include/README.md)**: Header files for `inttypes.h` and `setjmp.h` with definitions and declarations for non-local jumps.

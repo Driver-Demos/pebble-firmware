@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Resource definitions for platform Snowy, including images, fonts, vibes, and JavaScript files.
+Resource definitions for Snowy images, fonts, vibes, and JavaScript files.
 
 
 ## Files

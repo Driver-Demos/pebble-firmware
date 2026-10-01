@@ -3,12 +3,12 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Commands, conversion tools, programming modules, command handling, log processing, and PULSEv2 protocol suite.
+Tools for Pebble watch operations, file conversion, flash programming, command handling, and log hashing.
 
 ## Folders
 - **[pbl](pbl/README.md)**: Commands for Pebble watch operations, PULSE transport configuration, software version definition, version control ignore rules, project configuration, and internal tools documentation.
-- **[pblconvert](pblconvert/README.md)**: Conversion tools and scripts for image formats, custom exceptions, version info, and related tests.
-- **[pblprog](pblprog/README.md)**: STM32 flash programming modules, firmware loader tools, and project configuration for Pebble Programmer.
+- **[pblconvert](pblconvert/README.md)**: GIF, PBI, PDC, SVG, and APNG conversion tools with tests
+- **[pblprog](pblprog/README.md)**: STM32 flash programming modules and firmware loader tools for ARM GCC.
 - **[pebble-commander](pebble-commander/README.md)**: Modules for command handling, version control ignore rules, project configuration, and documentation.
 - **[pebble-loghash](pebble-loghash/README.md)**: License information, constants, modules for log string processing, Git ignore rules, configuration, documentation, and tests for log hashing and dehashing functions.
 - **[pulse2](pulse2/README.md)**: Module initialization, custom exceptions, PULSEv2 datagram handling, unit tests, version control, project configuration, and documentation for the PULSEv2 protocol suite.

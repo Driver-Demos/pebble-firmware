@@ -3,17 +3,17 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-CMake toolchain files, documentation, core components, libraries, tools, tests, third-party headers, and build scripts for JerryScript.
+JerryScript engine source, docs, tests, tools, and build files
 
 ## Folders
 - **[cmake](cmake/README.md)**: CMake toolchain files for various architectures and microcontrollers, including ARMv7l, i686, STM32F3, STM32F4, and MIPS.
-- **[docs](docs/README.md)**: Documentation for setting up, using, embedding, and porting JerryScript, including API and internal design details.
+- **[docs](docs/README.md)**: JerryScript setup, API, embedding, internals, and porting docs
 - **[jerry-core](jerry-core/README.md)**: Memory management, context definitions, parsing, virtual machine operations, and API interfaces for JerryScript.
 - **[jerry-libc](jerry-libc/README.md)**: Assembly macros, system call functions, C library functions, and custom printf for JerryScript.
 - **[jerry-libm](jerry-libm/README.md)**: Mathematical functions and constants for trigonometry, exponentiation, rounding, and IEEE arithmetic.
 - **[jerry-main](jerry-main/README.md)**: Standalone Unix-based main program for JerryScript, handling command-line arguments and script execution.
 - **[js_tooling](js_tooling/README.md)**: JavaScript testing tools, Git ignore settings, snapshot creation, CLI compiler, and code transformation scripts.
-- **[targets](targets/README.md)**: Header files, configuration settings, functions, and build tools for JerryScript on various platforms.
+- **[targets](targets/README.md)**: Build, config, and port files for JerryScript targets and tools
 - **[tests](tests/README.md)**: JavaScript benchmark, language feature, and unit tests for JerryScript, plus LED and console test scripts.
 - **[third-party](third-party/README.md)**: Header files for MemCheck and Valgrind client requests, with macros and definitions for memory state manipulation.
 - **[tools](tools/README.md)**: Cppcheck suppressions, shell scripts for tests, unit tests, code style rules, and scripts for dependencies, builds, checks, performance, memory, and webpage updates.

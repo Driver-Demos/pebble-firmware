@@ -3,12 +3,12 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Language resources, translation strings, and font metadata for multiple locales in Pebble firmware.
+Language strings, font metadata, and translation resources for multiple locales.
 
 ## Folders
 - **[de_DE](de_DE/README.md)**: German language strings, font metadata, and translation strings for Pebble firmware.
-- **[en_CN](en_CN/README.md)**: Bitmap fonts, language strings, font configurations, license info, month mappings, notification codepoints, and translations for en_CN locale.
-- **[en_TW](en_TW/README.md)**: Bitmap fonts, language strings, font configurations, license info, month mappings, notification codepoints, and translations for en_TW locale in Pebble firmware.
+- **[en_CN](en_CN/README.md)**: Language strings, fonts, month maps, and notification codepoints for en_CN locale
+- **[en_TW](en_TW/README.md)**: Traditional Chinese locale strings, fonts, month maps, and notification codepoints
 - **[en_US](en_US/README.md)**: Language strings and font metadata for the en_US locale in JSON format.
 - **[es_ES](es_ES/README.md)**: Spanish language strings, font metadata, and translation for Pebble firmware.
 - **[fr_FR](fr_FR/README.md)**: Language settings, font specifications, and French translation strings for Pebble firmware.

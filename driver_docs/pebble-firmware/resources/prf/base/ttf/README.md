@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-JSON files listing Unicode codepoints and licenses for Sazanami Mincho and M+ Bitmap Fonts.
+Unicode codepoint lists and font license files
 
 
 ## Files

@@ -3,12 +3,12 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Tests and C functions for activity data, JavaScript test files, resource definitions, and resource loading functions.
+Test fixtures for activity, JavaScript, and resource loading.
 
 ## Folders
-- **[activity](activity/README.md)**: Tests and C functions for activity shutdown, sleep data, and accelerometer data processing.
+- **[activity](activity/README.md)**: Test fixtures and sample data for activity, sleep, and step processing
 - **[js](js/README.md)**: JavaScript files for testing in the Pebble firmware, including color functionality in the tictoc rectangle module.
-- **[resources](resources/README.md)**: Defines built-in resources, file resource data, and timeline resource IDs for the Pebble firmware.
+- **[resources](resources/README.md)**: Built-in, file, and timeline resource tables for Pebble firmware.
 
 ## Files
 - **[load_test_resources.h](load_test_resources.h.md)**: Functions to load test resource fixtures into flash memory and PFS for unit testing.

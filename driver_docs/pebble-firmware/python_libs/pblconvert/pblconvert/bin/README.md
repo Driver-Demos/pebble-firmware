@@ -3,11 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Conversion tools for GIF to APNG, PBI to PNG, and PDC to PNG formats, plus an empty `__init__.py` file.
+GIF, PBI, and PDC image conversion tools for PNG and APNG formats
 
 
 ## Files
-- **[__init__.py](pebble-firmware/python_libs/pblconvert/pblconvert/bin/__init__.py)**: Empty file (no analyzable contents).
 - **[gif2apng](gif2apng.md)**: Converts GIF files to APNG format on Linux and macOS systems using platform-specific binaries.
 - **[pbi2png.py](pbi2png.py.md)**: Converts PBI image files to PNG format using Python and the PIL library.
 - **[pdc2png](pdc2png.md)**: A script to execute platform-specific `pdc2png` binaries based on the operating system.

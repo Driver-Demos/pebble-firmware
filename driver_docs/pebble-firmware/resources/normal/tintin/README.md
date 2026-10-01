@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-JSON file for emoji Unicode mapping and resource definitions for images, icons, and fonts.
+Resource definitions for tintin images, icons, and font configurations
 
 ## Folders
 - **[ttf](ttf/README.md)**: JSON file mapping emoji characters to Unicode codepoints.

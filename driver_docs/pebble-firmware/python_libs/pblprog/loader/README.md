@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Definitions for STM32F2/F4 IRQ handlers, firmware loader, linker script processing, and build script for silk loader.
+STM32F2/F4 IRQ handlers, firmware loader, linker script, and build tools for ARM GCC.
 
 ## Folders
 - **[src](src/README.md)**: Definitions for STM32F2/F4 IRQ handlers, firmware loader for flash and CRC, and STM32F4 linker script.

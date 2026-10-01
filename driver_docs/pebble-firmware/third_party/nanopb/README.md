@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Build script for configuring and building the nanopb library with specified sources and includes.
+Build script for configuring and building nanopb sources and includes
 
 
 ## Files

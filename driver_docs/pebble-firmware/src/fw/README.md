@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Firmware components for Pebble devices, including app management, drivers, system calls, and build scripts.
+Firmware startup, kernel, drivers, services, apps, and build and linker files.
 
 ## Folders
 - **[applib](applib/README.md)**: Message handling, app synchronization, Bluetooth management, font and graphics functions, UI components, Rocky API, voice management, accelerometer and compass services, app event handling, heap and resource management, battery and connection services, health metrics, internationalization, logging, persistent storage, plugin services, template strings, tick timer, unobstructed area management, worker loops, and build configuration for Pebble firmware.
@@ -20,13 +20,13 @@ Firmware components for Pebble devices, including app management, drivers, syste
 - **[process_management](process_management/README.md)**: App and process management in Pebble firmware, including installation, lifecycle, metadata, and communication.
 - **[process_state](process_state/README.md)**: Manages application and worker state with initialization, configuration, memory allocation, and event handling.
 - **[resource](resource/README.md)**: Resource management, storage, mapping, and system calls for Pebble firmware, including font and file handling.
-- **[services](services/README.md)**: Service management, analytics, communication, IMU, and build scripts for Pebble firmware.
+- **[services](services/README.md)**: Runlevel and service initialization code, plus common, normal, prf, and imu service modules
 - **[shell](shell/README.md)**: Manages app states, user preferences, system themes, and shell transitions in Pebble firmware.
 - **[startup](startup/README.md)**: Interrupt request handler definitions, firmware startup initialization, system clock configuration, and build configuration for STM32 in Pebble firmware.
 - **[syscall](syscall/README.md)**: System call definitions and interfaces for communication, BLE, event handling, profiling, and resource management.
 - **[system](system/README.md)**: Manages boot bits, software failure, firmware storage, hexdumps, logging, assertions, profiling, reboot reasons, resets, RTC registers, status codes, syscalls, test infrastructure, and versioning.
 - **[util](util/README.md)**: Random number generation, time manipulation, array utilities, base64 encoding, bitset operations, buffer management, CRC calculations, date functions, dictionary operations, attribute management, graphics utilities, HDLC encoding, Intel HEX encoding, legacy checksum, LRU cache, macro definitions, memory buffer management, network utilities, PackBits compression, Pascal string handling, ratio manipulation, byte reversal, shared circular buffer, sparse length encoding, statistical calculations, string list management, integer swapping, base64 test script, unit conversions, and platform utilities.
-- **[vendor](vendor/README.md)**: CMake toolchain files, documentation, core components, libraries, tools, tests, and build scripts for JerryScript.
+- **[vendor](vendor/README.md)**: JavaScript capability checks and JerryScript source, docs, tests, tools, and build files
 
 ## Files
 - **[bootloader_symbols.json](bootloader_symbols.json.md)**: A JSON file mapping bootloader-provided symbols to their memory addresses for tintin firmware builds.
@@ -39,7 +39,7 @@ Firmware components for Pebble devices, including app management, drivers, syste
 - **[interrupt_stubs.c](interrupt_stubs.c.md)**: Defines an empty DebugMon_Handler function for interrupt handling.
 - **[irq_nrf52840.def](irq_nrf52840.def.md)**: Defines interrupt numbers for the nrf52840 microcontroller using a reverse IRQ definition macro.
 - **[irq_stm32.def](irq_stm32.def.md)**: Conditional inclusion of STM32 microcontroller family-specific IRQ definitions.
-- **[irq_stm32f2_f4.def](irq_stm32f2_f4.def.md)**: Defines interrupt request (IRQ) handlers for STM32F2 and STM32F4 microcontrollers.
+- **[irq_stm32f2_f4.def](irq_stm32f2_f4.def.md)**: Definitions for STM32F2 and STM32F4 interrupt request (IRQ) handlers with conditional compilation.
 - **[irq_stm32f7.def](irq_stm32f7.def.md)**: Definitions for STM32F7 interrupt request (IRQ) handlers with associated peripheral functions.
 - **[libgcc_override.c](libgcc_override.c.md)**: Overrides libgcc's __builtin_popcount for ARM architecture with an assembly-optimized version.
 - **[libos_platform.c](libos_platform.c.md)**: Functions for logging, assertion handling, and memory management in the Pebble firmware.

@@ -3,15 +3,14 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Conversion tools and scripts for image formats, custom exceptions, and version information.
+GIF, PBI, PDC, SVG, and APNG conversion tools with handlers and custom exceptions
 
 ## Folders
-- **[bin](bin/README.md)**: Conversion tools for GIF to APNG, PBI to PNG, and PDC to PNG formats, plus an empty `__init__.py` file.
+- **[bin](bin/README.md)**: GIF, PBI, and PDC image conversion tools for PNG and APNG formats
 - **[gif2apng](gif2apng/README.md)**: Colormap for Pebble Time watches, custom exceptions, and GIF to APNG conversion functionality.
-- **[svg2pdc](svg2pdc/README.md)**: Annotation system for SVG elements, custom exceptions, SVG to PDC conversion, and image routines.
+- **[svg2pdc](svg2pdc/README.md)**: SVG to PDC conversion, annotation, exceptions, and Pebble image/color routines
 
 ## Files
-- **[__init__.py](pebble-firmware/python_libs/pblconvert/pblconvert/__init__.py)**: Empty file (no analyzable contents).
 - **[__main__.py](__main__.py.md)**: Executes the `main` function from `pblconvert` when the directory is run as a script.
 - **[exceptions.py](exceptions.py.md)**: Defines custom exceptions `PblConvertError` and `PblConvertFormatError` for error handling.
 - **[handlers.py](handlers.py.md)**: Abstract base class and subclasses for handling SVG and GIF formats, including conversion methods.

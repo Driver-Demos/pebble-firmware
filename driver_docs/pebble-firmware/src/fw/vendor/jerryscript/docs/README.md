@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Documentation for setting up, using, embedding, and porting JerryScript, including API and internal design details.
+JerryScript setup, API, embedding, internals, and porting docs
 
 
 ## Files

@@ -3,15 +3,15 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Resource definitions for PRF with common overrides, media entries, font specifications, and JSON files.
+PRF resource definitions with common overrides, media types, images, fonts, and aliases
 
 ## Folders
-- **[asterix](asterix/README.md)**: Resource definitions for PRF with 'common' overrides, including a PNG media entry.
-- **[base](base/README.md)**: JSON files for Unicode codepoints and licenses, and resource definitions for PRF and common overrides.
+- **[asterix](asterix/README.md)**: Resource definitions for PRF with common overrides and a PNG media entry
+- **[base](base/README.md)**: Resource definitions for PRF and common overrides, including images and fonts, plus Unicode codepoint lists and font license files
 - **[calculus](calculus/README.md)**: Resource definitions for PRF and common overrides, including font specifications and aliases.
-- **[robert](robert/README.md)**: JSON file for Unicode codepoints and resource definitions for PRF with media types and font aliases.
-- **[silk](silk/README.md)**: Resource definitions for PRF with 'common' overrides, including media type and file path details.
-- **[spalding](spalding/README.md)**: Resource definitions for PRF with 'common' overrides, including PNG media details.
+- **[robert](robert/README.md)**: Resource definitions for PRF and common overrides, with media types and font aliases
+- **[silk](silk/README.md)**: Resource definitions for PRF with common overrides, media type, and file path details
+- **[spalding](spalding/README.md)**: Resource definitions for PRF with common overrides and PNG media details
 
 
 ---

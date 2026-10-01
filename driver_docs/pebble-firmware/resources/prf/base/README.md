@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-JSON files for Unicode codepoints and licenses, and resource definitions for PRF and common overrides.
+Resource definitions for PRF and common overrides, including images and fonts, plus Unicode codepoint lists and font license files
 
 ## Folders
-- **[ttf](ttf/README.md)**: JSON files listing Unicode codepoints and licenses for Sazanami Mincho and M+ Bitmap Fonts.
+- **[ttf](ttf/README.md)**: Unicode codepoint lists and font license files
 
 ## Files
 - **[resource_map.json](resource_map.json.md)**: Resource definitions for PRF and common overrides, including images and fonts.

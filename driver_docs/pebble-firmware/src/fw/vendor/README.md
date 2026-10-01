@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-CMake toolchain files, documentation, core components, libraries, tools, tests, and build scripts for JerryScript.
+JavaScript capability checks and JerryScript source, docs, tests, tools, and build files
 
 ## Folders
-- **[jerryscript](jerryscript/README.md)**: CMake toolchain files, documentation, core components, libraries, tools, tests, third-party headers, and build scripts for JerryScript.
+- **[jerryscript](jerryscript/README.md)**: JerryScript engine source, docs, tests, tools, and build files
 
 ## Files
 - **[wscript](wscript.md)**: Configuration script for checking JavaScript capability and recursing into 'jerryscript'.

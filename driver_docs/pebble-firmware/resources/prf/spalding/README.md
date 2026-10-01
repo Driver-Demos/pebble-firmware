@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Resource definitions for PRF with 'common' overrides, including PNG media details.
+Resource definitions for PRF with common overrides and PNG media details
 
 
 ## Files

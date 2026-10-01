@@ -3,11 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Unit tests for SVG to PDC conversion, argument parsing, and file format verification in `pblconvert`.
+Unit tests for SVG to PDC conversion, argument parsing, and SVG command parsing
 
 
 ## Files
-- **[__init__.py](pebble-firmware/python_libs/pblconvert/tests/svg2pdc/__init__.py)**: Empty file (no analyzable contents).
 - **[test_examples.py](test_examples.py.md)**: Unit tests for rendering SVG examples to PDC and PNG formats, comparing actual and expected outputs.
 - **[test_logic.py](test_logic.py.md)**: Unit tests for the `logic` function in `pblconvert` to verify file format conversions.
 - **[test_parse_args.py](test_parse_args.py.md)**: Unit tests for the `parse_args` function in the `pblconvert` module, simulating file handling and argument parsing.

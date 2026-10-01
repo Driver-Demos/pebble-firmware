@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Resource definitions for PRF with 'common' overrides, including media type and file path details.
+Resource definitions for PRF with common overrides, media type, and file path details
 
 
 ## Files

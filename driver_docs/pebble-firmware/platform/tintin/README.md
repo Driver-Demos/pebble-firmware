@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Character type macros, string manipulation, system functions, firmware management, build scripts, and testing tools for Pebble firmware bootloader.
+Bootloader build, test, flash, debug, and support scripts with libc, source, vendor, and waftools
 
 ## Folders
-- **[boot](boot/README.md)**: Character type macros, string manipulation, system functions, firmware management, build scripts, and testing tools for Pebble firmware bootloader.
+- **[boot](boot/README.md)**: Bootloader build, test, flash, debug, and support scripts with libc, source, vendor, and waftools.
 
 
 ---

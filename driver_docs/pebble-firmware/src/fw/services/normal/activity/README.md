@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Activity tracking and management in Pebble firmware, including algorithms, metrics, insights, and utilities.
+Activity tracking, health metrics, insights, sessions, workout service, and algorithm docs.
 
 ## Folders
 - **[docs](docs/README.md)**: Documentation of health algorithms for step counting and sleep tracking using accelerometer data and VMC values.

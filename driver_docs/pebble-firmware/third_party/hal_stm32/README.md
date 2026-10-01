@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Configuration and build script for STM32 microcontroller families in the Pebble firmware.
+Configuration and build script for STM32 microcontroller families.
 
 
 ## Files

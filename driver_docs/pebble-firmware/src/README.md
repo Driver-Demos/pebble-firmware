@@ -3,12 +3,12 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Tests, demos, Bluetooth firmware, Pebble device firmware, Protocol Buffers, headers, and utility libraries.
+Firmware, apps, libraries, IDL, headers, and build scripts.
 
 ## Folders
-- **[apps](apps/README.md)**: Tests, demos, and implementations for Pebble apps, including accelerometer, BLE, animations, and crash scenarios.
+- **[apps](apps/README.md)**: Pebble app demos and tests for sensors, UI, messaging, BLE, crashes, and timing
 - **[bluetooth-fw](bluetooth-fw/README.md)**: Bluetooth firmware source files, functions, scripts, stub operations, and build configuration.
-- **[fw](fw/README.md)**: Firmware components for Pebble devices, including app management, drivers, system calls, and build scripts.
+- **[fw](fw/README.md)**: Firmware startup, kernel, drivers, services, apps, and build and linker files.
 - **[idl](idl/README.md)**: Protocol Buffers schemas, build script, and configuration script for the 'nanopb' component.
 - **[include](include/README.md)**: Bluetooth headers, logging structures, PebbleOS specifications, and a build script for include directories.
 - **[libbtutil](libbtutil/README.md)**: Functions for Bluetooth device management, UUID expansion, pairing info checks, and a build script.

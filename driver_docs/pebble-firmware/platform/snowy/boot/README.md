@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Configurations, drivers, utilities, tests, scripts, and build tools for the Snowy platform boot process.
+Build, flash, debug, and test scripts plus bootloader sources and vendor tools for Snowy.
 
 ## Folders
 - **[src](src/README.md)**: Configurations, drivers, system utilities, and tests for Snowy platform boot process, including firmware updates and error handling.

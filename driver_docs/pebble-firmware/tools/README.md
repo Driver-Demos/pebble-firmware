@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Tools and scripts for testing, debugging, profiling, resource management, and firmware deployment in Pebble firmware.
+Build, analysis, and device utility scripts for firmware, resources, profiling, and serial tools
 
 ## Folders
 - **[activity](activity/README.md)**: Scripts for testing FFT algorithms, generating and parsing activity data, and plotting statistics.
@@ -27,11 +27,11 @@ Tools and scripts for testing, debugging, profiling, resource management, and fi
 - **[qemu_spi_cooker](qemu_spi_cooker/README.md)**: Prepares a QEMU SPI image file and includes a build script for compiling the qemu_spi_cooker program.
 - **[resources](resources/README.md)**: Resource generation classes, license management, Waf tools, initialization, filename finder, and redesign plan.
 - **[svg2png](svg2png/README.md)**: Setup and build scripts for packaging and converting SVG files to PNG using py2app.
-- **[tests](tests/README.md)**: Test data and unit tests for various modules, including JSON, Vibe, ELF, HDLC, and Pebble app functionalities.
+- **[tests](tests/README.md)**: Python unit tests and JSON test data for command, vibe, pack, and deployment tools
 
 ## Files
 - **[.gitignore](.gitignore.md)**: Specifies that `serial_dump.txt` should be ignored by Git.
-- **[__init__.py](__init__.py.md)**: License information for the Apache License, Version 2.0.
+- **[__init__.py](__init__.py.md)**: Apache License 2.0 file header for the pebble-commander utility module.
 - **[accessory_flash_imaging.py](accessory_flash_imaging.py.md)**: Tool for loading and reading binary data into Pebble's external flash storage via the accessory port.
 - **[accessory_imaging.py](accessory_imaging.py.md)**: Implements accessory imaging functions for communication and data transfer with a device via serial port.
 - **[analyze_fw_static_memory_usage.py](analyze_fw_static_memory_usage.py.md)**: Analyzes static memory usage of firmware by processing ELF and map files, and categorizes text sections.

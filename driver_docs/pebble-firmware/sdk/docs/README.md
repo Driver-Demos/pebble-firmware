@@ -3,15 +3,14 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Links to Pebble Developer Guides, CSS files, HTML templates, and SDK documentation.
+Pebble SDK documentation, templates, and external reference links.
 
 ## Folders
 - **[external_refs](external_refs/README.md)**: Links to Pebble Developer Guides on app communication, SDK migration, UI layers, and app resources.
-- **[template](template/README.md)**: Bootstrap and Pebble Developer CSS files, HTML templates for documentation header and footer, and Apache License.
+- **[template](template/README.md)**: HTML templates and CSS styles for Doxygen and Pebble Developer documentation
 
 ## Files
 - **[common.dox](common.dox.md)**: Documentation for the Pebble SDK frameworks, APIs, and standard C functions for app development.
-- **[mainpage_sdk.dox](pebble-firmware/sdk/docs/mainpage_sdk.dox)**: Empty file (no analyzable contents).
 
 ---
 Made with ❤️ by [Driver](https://www.driver.ai/)

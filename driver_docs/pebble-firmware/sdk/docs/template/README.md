@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Bootstrap and Pebble Developer CSS files, HTML templates for documentation header and footer, and Apache License.
+HTML templates and CSS styles for Doxygen and Pebble Developer documentation
 
 
 ## Files

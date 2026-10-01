@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Vibration patterns and resource definitions for the Snowy platform in Pebble firmware.
+Resource definitions for images, fonts, and vibration patterns.
 
 ## Folders
 - **[vibes](vibes/README.md)**: Vibration and haptic feedback patterns for Pebble firmware with various durations, strengths, and delays.

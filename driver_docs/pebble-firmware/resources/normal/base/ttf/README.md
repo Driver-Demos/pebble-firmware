@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Maps basic Latin characters to Unicode codepoints and includes license files for Apache and SIL Open Font.
+Basic Latin codepoints and font license files
 
 
 ## Files

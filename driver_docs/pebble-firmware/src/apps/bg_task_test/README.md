@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Apache License 2.0 terms, Pebble app and worker implementations, app configuration, and build script.
+Pebble app demo with worker, resources, and build script for button, health, and sensor events
 
 ## Folders
-- **[resources](resources/README.md)**: Apache License 2.0 terms and conditions for fonts in the platform.
+- **[resources](resources/README.md)**: Apache License 2.0 terms and conditions for platform fonts
 - **[src](src/README.md)**: Implements a Pebble app for handling button clicks, worker messages, and health events.
 - **[worker_src](worker_src/README.md)**: Implements a Pebble worker app for handling accelerometer data, battery state, and health events.
 

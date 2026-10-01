@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Board configuration, drivers, system management, utilities, tests, and build scripts for STM32F7 bootloader.
+STM32F7 bootloader sources, tests, vendor headers, build tools, and flash scripts
 
 ## Folders
 - **[src](src/README.md)**: Board configuration, drivers, system management, utilities, boot tests, firmware handling, and interrupt definitions for STM32F7 in Pebble firmware.
@@ -14,7 +14,7 @@ Board configuration, drivers, system management, utilities, tests, and build scr
 ## Files
 - **[boot-bin-update.sh](boot-bin-update.sh.md)**: Updates bootloader binaries for specified boards by building and copying them to the output directory.
 - **[flash](flash.md)**: Bash script to flash a bootloader binary using OpenOCD.
-- **[git_version.auto.h.in](git_version.auto.h.in.md)**: Header file for defining Git version information placeholders.
+- **[git_version.auto.h.in](git_version.auto.h.in.md)**: Header file for defining Git version information with placeholders for timestamp, tag, and version details.
 - **[openocd_swd_ftdi.cfg](openocd_swd_ftdi.cfg.md)**: Configuration for OpenOCD using FTDI interface with SWD transport and LED signal setup.
 - **[wscript](wscript.md)**: Build script for the Robert bootloader, integrating it into the firmware build process with specific board options and configurations.
 

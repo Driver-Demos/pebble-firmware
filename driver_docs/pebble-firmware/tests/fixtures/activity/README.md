@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Tests and C functions for activity shutdown, sleep data, and accelerometer data processing.
+Test fixtures and sample data for activity, sleep, and step processing
 
 ## Folders
 - **[activity_samples](activity_samples/README.md)**: Tests for activity shutdown behavior and a C function for activity data sampling with test metadata.

@@ -3,11 +3,11 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Custom CSS for theming and typography, and SIL Open Font License fonts for the Tomorrow Project.
+Custom CSS and fonts for documentation styling
 
 ## Folders
 - **[css](css/README.md)**: Custom CSS for theming and typography in the Pebble firmware documentation.
-- **[fonts](fonts/README.md)**: SIL Open Font License Version 1.1 for the Tomorrow Project Font Software.
+- **[fonts](fonts/README.md)**: SIL Open Font License 1.1 for the Tomorrow Project Font Software
 
 
 ---

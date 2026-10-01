@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Apache License 2.0 terms and conditions for fonts in the platform.
+Apache License 2.0 terms and conditions for platform fonts
 
 ## Folders
-- **[fonts](fonts/README.md)**: Apache License 2.0 terms and conditions for fonts in the platform.
+- **[fonts](fonts/README.md)**: Apache License 2.0 terms and conditions for platform fonts
 
 
 ---

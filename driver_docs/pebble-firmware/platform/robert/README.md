@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Board configuration, drivers, system management, utilities, tests, and build scripts for STM32F7 bootloader.
+STM32F7 bootloader sources, tests, vendor headers, build tools, and flash scripts
 
 ## Folders
-- **[boot](boot/README.md)**: Board configuration, drivers, system management, utilities, tests, and build scripts for STM32F7 bootloader.
+- **[boot](boot/README.md)**: STM32F7 bootloader sources, tests, vendor headers, build tools, and flash scripts
 
 
 ---

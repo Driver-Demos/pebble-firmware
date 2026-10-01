@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Pin configurations, driver implementations, boot management, Nordic HAL configuration, C array tools, and bootloader scripts.
+Bootloader build, flash, update, and support tools for the Asterix platform.
 
 ## Folders
-- **[boot](boot/README.md)**: Pin configurations, driver implementations, boot management, Nordic HAL configuration, C array tools, and bootloader scripts.
+- **[boot](boot/README.md)**: Bootloader build, flash, update, and support tools for the Asterix platform.
 
 
 ---

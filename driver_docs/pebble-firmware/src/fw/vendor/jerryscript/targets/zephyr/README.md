@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Line input handling, JerryScript integration, console/log implementations, build configuration, and Makefiles for Zephyr.
+JerryScript Zephyr build, config, and console integration files.
 
 ## Folders
 - **[src](src/README.md)**: Line input handling, JerryScript integration, console/log implementations, and build configuration for Zephyr.

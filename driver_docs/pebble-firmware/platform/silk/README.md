@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Data structures, drivers, system functions, utilities, tests, DSP functions, build tools, and scripts for STM32F4 Silk platform bootloader.
+Bootloader sources, tests, vendor DSP code, build tools, and flash/debug scripts for STM32F4 Silk
 
 ## Folders
-- **[boot](boot/README.md)**: Data structures, drivers, system functions, utilities, tests, DSP functions, build tools, and scripts for STM32F4 Silk platform bootloader.
+- **[boot](boot/README.md)**: Bootloader sources, tests, vendor DSP code, build tools, and flash/debug scripts for STM32F4 Silk.
 
 
 ---

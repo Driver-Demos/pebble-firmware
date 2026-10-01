@@ -3,25 +3,25 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Templates, integration tools, configurations, documentation, resources, tests, scripts, and build files for Pebble firmware development and management.
+Firmware, docs, build scripts, tests, tools, and config for PebbleOS.
 
 ## Folders
 - **[.github](.github/README_.md)**: Templates for issues and GitHub Actions workflows for CI/CD and project management.
 - **[applib-targets](applib-targets/README.md)**: Emscripten integration, FreeRTOS utilities, SDL management, and build configuration for applib targets.
-- **[bin](bin/README.md)**: Configures bootloader file selection based on board type and options in the Pebble firmware.
+- **[bin](bin/README.md)**: Configures bootloader file selection based on board type and options.
 - **[checkers](checkers/README.md)**: Static analyzer checkers for mutex and syscall security, with tests and a build script for Clang/LLVM.
-- **[docs](docs/README.md)**: Custom CSS, development and legacy documentation, external resources, Sphinx configuration, and build scripts.
-- **[platform](platform/README.md)**: Pin configurations, drivers, system functions, utilities, tests, build tools, and bootloader scripts for various Pebble firmware platforms.
-- **[python_libs](python_libs/README.md)**: Commands, conversion tools, programming modules, command handling, log processing, and PULSEv2 protocol suite.
+- **[docs](docs/README.md)**: Sphinx docs, guides, legacy notes, and reference resources for PebbleOS.
+- **[platform](platform/README.md)**: Bootloader sources, build, flash, debug, test, and capability scripts for Pebble boards
+- **[python_libs](python_libs/README.md)**: Tools for Pebble watch operations, file conversion, flash programming, command handling, and log hashing.
 - **[release](release/README.md)**: Configuration files and build scripts for various Pebble firmware releases, including manufacturing tests.
 - **[release-notes](release-notes/README.md)**: Release notes for various Pebble firmware versions detailing new features, bug fixes, and improvements.
-- **[resources](resources/README.md)**: Shared and platform-specific resource definitions, mappings, and build script for resource management.
-- **[sdk](sdk/README.md)**: Pebble SDK setup, documentation, JavaScript modules, testing, tools, Waf build system, and configuration files.
-- **[src](src/README.md)**: Tests, demos, Bluetooth firmware, Pebble device firmware, Protocol Buffers, headers, and utility libraries.
+- **[resources](resources/README.md)**: Shared resource maps, media, fonts, strings, layouts, and build scripts for firmware variants
+- **[sdk](sdk/README.md)**: Pebble SDK docs, build tools, templates, tests, and configuration files
+- **[src](src/README.md)**: Firmware, apps, libraries, IDL, headers, and build scripts.
 - **[stored_apps](stored_apps/README.md)**: Pebble smartwatch app for golf score tracking, linker script, and build script for app compilation.
-- **[tests](tests/README.md)**: Tests, fake implementations, stubs, and infrastructure for Pebble firmware components and libraries.
-- **[third_party](third_party/README.md)**: Build scripts and configuration settings for CMSIS, FreeRTOS, nRF52840, STM32, nanopb, NimBLE, TI Bluetooth, and TinyMT.
-- **[tools](tools/README.md)**: Tools and scripts for testing, debugging, profiling, resource management, and firmware deployment in Pebble firmware.
+- **[tests](tests/README.md)**: Tests, fakes, fixtures, stubs, overrides, and build scripts for firmware and library validation
+- **[third_party](third_party/README.md)**: Build scripts and configuration for CMSIS, FreeRTOS, HALs, nanopb, NimBLE, TI BT, and TinyMT.
+- **[tools](tools/README.md)**: Build, analysis, and device utility scripts for firmware, resources, profiling, and serial tools
 - **[waftools](waftools/README.md)**: Classes and methods for JUnit XML test suites, Waf build tasks, file compression, OpenOCD configurations, and Pebble firmware tools.
 
 ## Files

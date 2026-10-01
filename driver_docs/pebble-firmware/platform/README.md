@@ -3,14 +3,14 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Pin configurations, drivers, system functions, utilities, tests, build tools, and bootloader scripts for various Pebble firmware platforms.
+Bootloader sources, build, flash, debug, test, and capability scripts for Pebble boards
 
 ## Folders
-- **[asterix](asterix/README.md)**: Pin configurations, driver implementations, boot management, Nordic HAL configuration, C array tools, and bootloader scripts.
-- **[robert](robert/README.md)**: Board configuration, drivers, system management, utilities, tests, and build scripts for STM32F7 bootloader.
-- **[silk](silk/README.md)**: Data structures, drivers, system functions, utilities, tests, DSP functions, build tools, and scripts for STM32F4 Silk platform bootloader.
-- **[snowy](snowy/README.md)**: Configurations, drivers, utilities, tests, scripts, and build tools for the Snowy platform boot process.
-- **[tintin](tintin/README.md)**: Character type macros, string manipulation, system functions, firmware management, build scripts, and testing tools for Pebble firmware bootloader.
+- **[asterix](asterix/README.md)**: Bootloader build, flash, update, and support tools for the Asterix platform.
+- **[robert](robert/README.md)**: STM32F7 bootloader sources, tests, vendor headers, build tools, and flash scripts
+- **[silk](silk/README.md)**: Bootloader sources, tests, vendor DSP code, build tools, and flash/debug scripts for STM32F4 Silk
+- **[snowy](snowy/README.md)**: Build, flash, debug, and test scripts plus bootloader sources and vendor tools for Snowy.
+- **[tintin](tintin/README.md)**: Bootloader build, test, flash, debug, and support scripts with libc, source, vendor, and waftools
 
 ## Files
 - **[platform_capabilities.py](platform_capabilities.py.md)**: Defines board capabilities and provides a function to retrieve capability dictionaries for specific boards.

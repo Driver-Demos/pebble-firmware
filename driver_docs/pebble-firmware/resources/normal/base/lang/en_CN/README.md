@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Bitmap fonts, language strings, font configurations, license info, month mappings, notification codepoints, and translations for en_CN locale.
+Language strings, fonts, month maps, and notification codepoints for en_CN locale
 
 
 ## Files

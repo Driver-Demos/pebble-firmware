@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-STM32 flash programming modules, firmware loader tools, and project configuration for Pebble Programmer.
+STM32 flash programming modules and firmware loader tools for ARM GCC.
 
 ## Folders
-- **[loader](loader/README.md)**: Definitions for STM32F2/F4 IRQ handlers, firmware loader, linker script processing, and build script for silk loader.
+- **[loader](loader/README.md)**: STM32F2/F4 IRQ handlers, firmware loader, linker script, and build tools for ARM GCC.
 - **[pebble](pebble/README.md)**: STM32 flash programming modules and namespace package declaration.
 
 ## Files

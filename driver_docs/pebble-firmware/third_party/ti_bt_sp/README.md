@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Build script for converting TI Bluetooth service pack scripts to binary format using Waf.
+Build script for converting TI Bluetooth service pack scripts to binary format using Waf
 
 
 ## Files

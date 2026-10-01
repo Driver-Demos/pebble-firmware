@@ -3,12 +3,12 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Tests, fake implementations, stubs, and infrastructure for Pebble firmware components and libraries.
+Tests, fakes, fixtures, stubs, overrides, and build scripts for firmware and library validation
 
 ## Folders
 - **[fakes](fakes/README.md)**: Fake implementations for testing various components of the Pebble firmware, including services, storage, and communication.
 - **[fakes_tests](fakes_tests/README.md)**: Tests for fake mutex implementation and build script for running these tests using `clar`.
-- **[fixtures](fixtures/README.md)**: Tests and C functions for activity data, JavaScript test files, resource definitions, and resource loading functions.
+- **[fixtures](fixtures/README.md)**: Test fixtures for activity, JavaScript, and resource loading.
 - **[fw](fw/README.md)**: Tests and build scripts for Pebble firmware components, including Bluetooth, graphics, UI, kernel, and utilities.
 - **[libc](libc/README.md)**: Tests for C standard library functions in math, printf, string, and time categories.
 - **[libutil](libutil/README.md)**: Unit tests for circular buffer, cache, CRC32, list, math, sort, string, struct, UUID, and build script.

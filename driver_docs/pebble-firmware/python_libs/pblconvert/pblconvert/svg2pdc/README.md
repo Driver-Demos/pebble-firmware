@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Annotation system for SVG elements, custom exceptions, SVG to PDC conversion, and image routines.
+SVG to PDC conversion, annotation, exceptions, and Pebble image/color routines
 
 
 ## Files

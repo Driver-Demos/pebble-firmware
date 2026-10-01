@@ -3,11 +3,11 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Conversion tools and scripts for image formats, custom exceptions, version info, and related tests.
+GIF, PBI, PDC, SVG, and APNG conversion tools with tests
 
 ## Folders
-- **[pblconvert](pblconvert/README.md)**: Conversion tools and scripts for image formats, custom exceptions, and version information.
-- **[tests](tests/README.md)**: Unit tests for SVG to PDC conversion, argument parsing, and file format verification in `pblconvert`.
+- **[pblconvert](pblconvert/README.md)**: GIF, PBI, PDC, SVG, and APNG conversion tools with handlers and custom exceptions
+- **[tests](tests/README.md)**: Unit tests for SVG to PDC conversion, argument parsing, and SVG command parsing
 
 ## Files
 - **[.gitignore](.gitignore.md)**: Specifies files and directories for Git to ignore in the pblconvert directory.

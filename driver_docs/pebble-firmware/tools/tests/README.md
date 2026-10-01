@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Test data and unit tests for various modules, including JSON, Vibe, ELF, HDLC, and Pebble app functionalities.
+Python unit tests and JSON test data for command, vibe, pack, and deployment tools
 
 
 ## Files

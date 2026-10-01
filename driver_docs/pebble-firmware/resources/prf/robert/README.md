@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-JSON file for Unicode codepoints and resource definitions for PRF with media types and font aliases.
+Resource definitions for PRF and common overrides, with media types and font aliases
 
 ## Folders
 - **[ttf](ttf/README.md)**: JSON file listing Unicode codepoints, including Chinese characters and a right single quote.

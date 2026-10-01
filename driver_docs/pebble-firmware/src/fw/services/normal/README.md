@@ -3,11 +3,11 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Manages various services and functionalities in Pebble firmware, including communication, data management, and device interactions.
+App, messaging, media, phone, voice, weather, and system service code.
 
 ## Folders
 - **[accessory](accessory/README.md)**: Manages smartstrap devices and communication, including state, connection, profiles, and raw data handling.
-- **[activity](activity/README.md)**: Activity tracking and management in Pebble firmware, including algorithms, metrics, insights, and utilities.
+- **[activity](activity/README.md)**: Activity tracking, health metrics, insights, sessions, workout service, and algorithm docs.
 - **[alarms](alarms/README.md)**: Alarm management implementation and header files for creation, configuration, scheduling, and pin management.
 - **[analytics](analytics/README.md)**: Analytics functionality, syscalls, event logging, data collection, heartbeat metrics, and storage management.
 - **[app_glances](app_glances/README.md)**: Manages app glance services and defines related data structures and functions for Pebble firmware.
@@ -25,7 +25,7 @@ Manages various services and functionalities in Pebble firmware, including commu
 - **[settings](settings/README.md)**: Manages and defines operations, structures, and functions for settings files and records.
 - **[timeline](timeline/README.md)**: Timeline management and layout functionality for Pebble firmware, including actions, events, and resources.
 - **[vibes](vibes/README.md)**: Manages vibration scores, intensity settings, and patterns with related data structures and functions.
-- **[voice](voice/README.md)**: Functions and data structures for managing voice dictation sessions and handling voice transcriptions.
+- **[voice](voice/README.md)**: Voice dictation session management and transcription validation functions.
 - **[weather](weather/README.md)**: Weather service functionality, data management, event handling, forecast creation, and weather type definitions.
 
 ## Files

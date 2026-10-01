@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-The SIL Open Font License Version 1.1 for the Tomorrow Project Font Software.
+SIL Open Font License Version 1.1 for the Tomorrow Project Font Software
 
 
 ## Files

@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Build script for compiling the TinyMT library with specified sources and includes.
+Build script for compiling TinyMT with specified sources and includes.
 
 
 ## Files

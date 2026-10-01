@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Functions and data structures for managing voice dictation sessions and handling voice transcriptions.
+Voice dictation session management and transcription validation functions.
 
 
 ## Files

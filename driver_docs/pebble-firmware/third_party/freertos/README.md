@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Configuration settings and build script for FreeRTOS tailored to specific hardware and applications.
+FreeRTOS configuration and build script for microcontroller families
 
 
 ## Files

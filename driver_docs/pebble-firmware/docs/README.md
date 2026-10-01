@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Custom CSS, development and legacy documentation, external resources, Sphinx configuration, and build scripts.
+Sphinx docs, guides, legacy notes, and reference resources for PebbleOS.
 
 ## Folders
-- **[_static](_static/README.md)**: Custom CSS for theming and typography, and SIL Open Font License fonts for the Tomorrow Project.
+- **[_static](_static/README.md)**: Custom CSS and fonts for documentation styling
 - **[development](development/README.md)**: Configuration and documentation for building, debugging, and interacting with Pebble firmware and PRF.
 - **[legacy](legacy/README.md)**: Documentation for PULSEv2 protocols, battery state transitions, Doxygen usage, SPI flash imaging, Bluetooth stack porting, and FreeRTOS tasks.
 - **[reference](reference/README.md)**: External resources related to PebbleOS, including presentations and a video discussion.

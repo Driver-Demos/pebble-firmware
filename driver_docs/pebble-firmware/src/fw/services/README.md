@@ -3,12 +3,12 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Service management, analytics, communication, IMU, and build scripts for Pebble firmware.
+Runlevel and service initialization code, plus common, normal, prf, and imu service modules
 
 ## Folders
 - **[common](common/README.md)**: Analytics, battery, Bluetooth, communication, compositor, data retrieval, HRM, i18n, legacy, timer, storage, touch management, and various service files for Pebble firmware.
 - **[imu](imu/README.md)**: Defines an enumeration for IMU coordinate axes.
-- **[normal](normal/README.md)**: Manages various services and functionalities in Pebble firmware, including communication, data management, and device interactions.
+- **[normal](normal/README.md)**: App, messaging, media, phone, voice, weather, and system service code.
 - **[prf](prf/README.md)**: Handles accessory modes, analytics, Bluetooth management, app sessions, and implements an idle watchdog.
 
 ## Files

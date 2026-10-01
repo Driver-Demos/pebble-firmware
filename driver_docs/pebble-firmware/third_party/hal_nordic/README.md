@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Template for nrfx macros and build script for nRF52840 microcontroller.
+nrfx macro glue and nRF52840 build configuration
 
 
 ## Files

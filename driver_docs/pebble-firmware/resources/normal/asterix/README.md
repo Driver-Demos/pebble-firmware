@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Resource definitions for platform silk, detailing media types and file paths.
+Resource definitions for platform silk media files and paths
 
 
 ## Files

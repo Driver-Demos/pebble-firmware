@@ -3,11 +3,11 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Pebble SDK setup, documentation, JavaScript modules, testing, tools, Waf build system, and configuration files.
+Pebble SDK docs, build tools, templates, tests, and configuration files
 
 ## Folders
 - **[defaults](defaults/README.md)**: Pebble app setup, Git ignore rules, SDK functions, watch face handling, and project file templates.
-- **[docs](docs/README.md)**: Links to Pebble Developer Guides, CSS files, HTML templates, and SDK documentation.
+- **[docs](docs/README.md)**: Pebble SDK documentation, templates, and external reference links.
 - **[include](include/README.md)**: JavaScript modules for message handling, event management, and Pebble app initialization.
 - **[tests](tests/README.md)**: JavaScript testing configuration, mock implementation, and test scripts for Pebble firmware with ESLint and Mocha.
 - **[tools](tools/README.md)**: TypeScript definitions, JSON schemas, Webpack loader, license info, metadata injection, memory reports, and package management tools.

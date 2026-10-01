@@ -3,12 +3,12 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Shared and platform-specific resource definitions, mappings, and build script for resource management.
+Shared resource maps, media, fonts, strings, layouts, and build scripts for firmware variants
 
 ## Folders
 - **[common](common/README.md)**: Shared resource definitions for PRF and Normal FW, including images, fonts, and media files.
-- **[normal](normal/README.md)**: Resource definitions and mappings for various platforms including Silk, Snowy, Spalding, and Tintin.
-- **[prf](prf/README.md)**: Resource definitions for PRF with common overrides, media entries, font specifications, and JSON files.
+- **[normal](normal/README.md)**: Resource maps for platform media, fonts, strings, layouts, and JavaScript files
+- **[prf](prf/README.md)**: PRF resource definitions with common overrides, media types, images, fonts, and aliases
 
 ## Files
 - **[wscript](wscript.md)**: Build script for managing resource maps and generating resource files for different build variants.

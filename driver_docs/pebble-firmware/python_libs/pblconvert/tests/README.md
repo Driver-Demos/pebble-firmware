@@ -3,13 +3,11 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Unit tests for SVG to PDC conversion, argument parsing, and file format verification in `pblconvert`.
+Unit tests for SVG to PDC conversion, argument parsing, and SVG command parsing
 
 ## Folders
-- **[svg2pdc](svg2pdc/README.md)**: Unit tests for SVG to PDC conversion, argument parsing, and file format verification in `pblconvert`.
+- **[svg2pdc](svg2pdc/README.md)**: Unit tests for SVG to PDC conversion, argument parsing, and SVG command parsing
 
-## Files
-- **[__init__.py](pebble-firmware/python_libs/pblconvert/tests/__init__.py)**: Empty file (no analyzable contents).
 
 ---
 Made with ❤️ by [Driver](https://www.driver.ai/)

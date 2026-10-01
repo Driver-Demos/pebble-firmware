@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Configuration settings, macros, handlers, BLE communication, and build script for NimBLE in Pebble firmware.
+Bluetooth stack port, syscfg generation, transport, and build configuration files
 
 ## Folders
 - **[port](port/README.md)**: Configuration settings, macros, header files, event queue, mutex, semaphore, callout, and interrupt handlers for Apache Mynewt, NimBLE, and NRF52.

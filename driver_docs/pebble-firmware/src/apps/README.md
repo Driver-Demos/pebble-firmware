@@ -3,13 +3,13 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Tests, demos, and implementations for Pebble apps, including accelerometer, BLE, animations, and crash scenarios.
+Pebble app demos and tests for sensors, UI, messaging, BLE, crashes, and timing
 
 ## Folders
 - **[accelerometer_peek_test](accelerometer_peek_test/README.md)**: Tests accelerometer data retrieval and displays changes, with metadata and build script for the Pebble app.
 - **[app_heap_demo](app_heap_demo/README.md)**: Demonstrates heap allocation and memory usage in a Pebble app, with metadata and build script.
 - **[app_messages_test](app_messages_test/README.md)**: JavaScript event listeners, tests for app message functionality, app metadata, and build configuration.
-- **[bg_task_test](bg_task_test/README.md)**: Apache License 2.0 terms, Pebble app and worker implementations, app configuration, and build script.
+- **[bg_task_test](bg_task_test/README.md)**: Pebble app demo with worker, resources, and build script for button, health, and sensor events
 - **[ble_demo](ble_demo/README.md)**: BLE operations and scanning demos, app metadata, and build script for Pebble firmware.
 - **[complex_animations](complex_animations/README.md)**: Implements complex animations for a Pebble app, with metadata and build script for multiple platforms.
 - **[crash_demo](crash_demo/README.md)**: Demonstration app for crash scenarios on Pebble firmware, with build scripts and metadata files.

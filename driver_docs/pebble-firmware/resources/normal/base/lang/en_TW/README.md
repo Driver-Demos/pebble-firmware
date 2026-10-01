@@ -3,15 +3,15 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Bitmap fonts, language strings, font configurations, license info, month mappings, notification codepoints, and translations for en_TW locale in Pebble firmware.
+Traditional Chinese locale strings, fonts, month maps, and notification codepoints
 
 
 ## Files
-- **[fireflyR14.bdf](fireflyR14.bdf.md)**: Defines bitmap fonts for "Firefly New Sung" with metadata and bitmap data for 17,357 characters.
+- **[fireflyR14.bdf](fireflyR14.bdf.md)**: Defines bitmap fonts for "Firefly New Sung" with metadata and pixel data for rendering characters.
 - **[lang_map.json](lang_map.json.md)**: Defines language strings and font configurations for the en_TW locale in the Pebble firmware.
 - **[LICENSE](LICENSE.md)**: License information for TrueType fonts under the ARPHIC PUBLIC LICENSE and GENERAL PUBLIC LICENSE.
-- **[months.json](months.json.md)**: JSON file mapping Chinese characters for months to their Unicode code points.
-- **[notification_codepoints.json](notification_codepoints.json.md)**: A JSON file listing Unicode codepoints for notifications in Traditional Chinese.
+- **[months.json](months.json.md)**: JSON file mapping Chinese month characters to their Unicode code points.
+- **[notification_codepoints.json](notification_codepoints.json.md)**: A JSON file listing codepoints for notifications in the Pebble firmware.
 - **[tintin.po](tintin.po.md)**: Translation file for Traditional Chinese notifications in the Pebble firmware.
 
 ---

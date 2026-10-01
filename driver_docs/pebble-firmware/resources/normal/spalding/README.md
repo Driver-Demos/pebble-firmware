@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Defines haptic feedback patterns and resource definitions for platform Spalding.
+Resource definitions for Spalding media, fonts, and vibration patterns
 
 ## Folders
 - **[vibes](vibes/README.md)**: Defines haptic feedback and "Nudge Nudge" vibration patterns with parameters.

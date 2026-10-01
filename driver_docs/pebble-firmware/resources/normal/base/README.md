@@ -3,13 +3,13 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-JavaScript code, language resources, JSON layout attributes, font metadata, time zone data, and resource mappings.
+Resource mappings, layouts, language strings, fonts, time zone data, and watch face JavaScript
 
 ## Folders
 - **[js](js/README.md)**: JavaScript code for Pebble watch faces displaying time and date, with animations using the Rocky framework.
-- **[lang](lang/README.md)**: Language resources, translation strings, and font metadata for multiple locales in Pebble firmware.
+- **[lang](lang/README.md)**: Language strings, font metadata, and translation resources for multiple locales.
 - **[layouts](layouts/README.md)**: Defines JSON layout attributes and types for Pebble firmware resources, including icons, colors, and text.
-- **[ttf](ttf/README.md)**: Maps basic Latin characters to Unicode codepoints and includes license files for Apache and SIL Open Font.
+- **[ttf](ttf/README.md)**: Basic Latin codepoints and font license files
 - **[tzdata](tzdata/README.md)**: Global time zone data management and IANA timezone data update script.
 
 ## Files

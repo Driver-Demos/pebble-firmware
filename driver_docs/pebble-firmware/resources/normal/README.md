@@ -3,17 +3,17 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Resource definitions and mappings for various platforms including Silk, Snowy, Spalding, and Tintin.
+Resource maps for platform media, fonts, strings, layouts, and JavaScript files
 
 ## Folders
-- **[asterix](asterix/README.md)**: Resource definitions for platform silk, detailing media types and file paths.
-- **[base](base/README.md)**: JavaScript code, language resources, JSON layout attributes, font metadata, time zone data, and resource mappings.
+- **[asterix](asterix/README.md)**: Resource definitions for platform silk media files and paths
+- **[base](base/README.md)**: Resource mappings, layouts, language strings, fonts, time zone data, and watch face JavaScript
 - **[calculus](calculus/README.md)**: References another resource map JSON file located in a different directory.
-- **[robert](robert/README.md)**: Resource definitions for platform Snowy, including images, fonts, vibes, and JavaScript files.
-- **[silk](silk/README.md)**: Resource definitions for platform silk, detailing media types and file paths.
-- **[snowy](snowy/README.md)**: Vibration patterns and resource definitions for the Snowy platform in Pebble firmware.
-- **[spalding](spalding/README.md)**: Defines haptic feedback patterns and resource definitions for platform Spalding.
-- **[tintin](tintin/README.md)**: JSON file for emoji Unicode mapping and resource definitions for images, icons, and fonts.
+- **[robert](robert/README.md)**: Resource definitions for Snowy images, fonts, vibes, and JavaScript files.
+- **[silk](silk/README.md)**: Resource definitions for platform silk and media file paths
+- **[snowy](snowy/README.md)**: Resource definitions for images, fonts, and vibration patterns.
+- **[spalding](spalding/README.md)**: Resource definitions for Spalding media, fonts, and vibration patterns
+- **[tintin](tintin/README.md)**: Resource definitions for tintin images, icons, and font configurations
 
 
 ---

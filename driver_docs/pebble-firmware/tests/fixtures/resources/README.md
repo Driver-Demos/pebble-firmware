@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Defines built-in resources, file resource data, and timeline resource IDs for the Pebble firmware.
+Built-in, file, and timeline resource tables for Pebble firmware.
 
 
 ## Files

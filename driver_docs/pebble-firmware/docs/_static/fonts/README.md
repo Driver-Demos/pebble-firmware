@@ -3,10 +3,10 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-SIL Open Font License Version 1.1 for the Tomorrow Project Font Software.
+SIL Open Font License 1.1 for the Tomorrow Project Font Software
 
 ## Folders
-- **[Tomorrow](Tomorrow/README.md)**: The SIL Open Font License Version 1.1 for the Tomorrow Project Font Software.
+- **[Tomorrow](Tomorrow/README.md)**: SIL Open Font License Version 1.1 for the Tomorrow Project Font Software
 
 
 ---

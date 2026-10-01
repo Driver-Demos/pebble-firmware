@@ -3,7 +3,7 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Configures bootloader file selection based on board type and options in the Pebble firmware.
+Configures bootloader file selection based on board type and options.
 
 ## Folders
 - **[boot](boot/README.md)**: Configures bootloader file selection based on board type and options in the Pebble firmware.

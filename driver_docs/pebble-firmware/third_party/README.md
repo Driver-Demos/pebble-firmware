@@ -3,17 +3,17 @@
 <!-- Manual edits may be overwritten on future commits. --------------------------->
 <!--------------------------------------------------------------------------------->
 
-Build scripts and configuration settings for CMSIS, FreeRTOS, nRF52840, STM32, nanopb, NimBLE, TI Bluetooth, and TinyMT.
+Build scripts and configuration for CMSIS, FreeRTOS, HALs, nanopb, NimBLE, TI BT, and TinyMT.
 
 ## Folders
 - **[cmsis_core](cmsis_core/README.md)**: Build script for configuring and building the CMSIS core library.
-- **[freertos](freertos/README.md)**: Configuration settings and build script for FreeRTOS tailored to specific hardware and applications.
-- **[hal_nordic](hal_nordic/README.md)**: Template for nrfx macros and build script for nRF52840 microcontroller.
-- **[hal_stm32](hal_stm32/README.md)**: Configuration and build script for STM32 microcontroller families in the Pebble firmware.
-- **[nanopb](nanopb/README.md)**: Build script for configuring and building the nanopb library with specified sources and includes.
-- **[nimble](nimble/README.md)**: Configuration settings, macros, handlers, BLE communication, and build script for NimBLE in Pebble firmware.
-- **[ti_bt_sp](ti_bt_sp/README.md)**: Build script for converting TI Bluetooth service pack scripts to binary format using Waf.
-- **[tinymt](tinymt/README.md)**: Build script for compiling the TinyMT library with specified sources and includes.
+- **[freertos](freertos/README.md)**: FreeRTOS configuration and build script for microcontroller families
+- **[hal_nordic](hal_nordic/README.md)**: nrfx macro glue and nRF52840 build configuration
+- **[hal_stm32](hal_stm32/README.md)**: Configuration and build script for STM32 microcontroller families.
+- **[nanopb](nanopb/README.md)**: Build script for configuring and building nanopb sources and includes
+- **[nimble](nimble/README.md)**: Bluetooth stack port, syscfg generation, transport, and build configuration files
+- **[ti_bt_sp](ti_bt_sp/README.md)**: Build script for converting TI Bluetooth service pack scripts to binary format using Waf
+- **[tinymt](tinymt/README.md)**: Build script for compiling TinyMT with specified sources and includes.
 
 ## Files
 - **[wscript](wscript.md)**: Configures and builds third-party dependencies based on the microcontroller and Bluetooth controller.
